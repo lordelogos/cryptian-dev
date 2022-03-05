@@ -119,6 +119,7 @@ button {
 
 header > nav {
 	width: 90%;
+	max-width: 1440px;
 	margin: auto;
 	height: 10vh;
 	display: flex;
@@ -220,6 +221,7 @@ header > section {
 	height: 90vh;
 	min-height: calc(0.9 * 700px);
 	width: 90%;
+	max-width: 1440px;
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
@@ -486,6 +488,7 @@ header > section {
 
 .pricing {
 	width: 90vw;
+	max-width: 1440px;
 	margin: auto;
 	height: 100vh;
 	display: flex;
