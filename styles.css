@@ -59,6 +59,10 @@ body {
 	#preloader > h2 {
 		font-size: 40px;
 	}
+
+	#preloader > img {
+		display: none;
+	}
 }
 
 body {
