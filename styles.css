@@ -4,7 +4,6 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-	/* font-family: 'Asap',sans-serif; */
 	font-family: "Nunito", sans-serif;
 }
 
@@ -189,20 +188,7 @@ header > nav > .nav-menu {
 	}
 
 	header > nav > ul {
-		position: absolute;
-		top: 10vh;
-		left: 0;
-		width: 100vw;
-		height: 40vh;
-		background-color: var(--purple);
-		box-shadow: 0 5px 15px var(--purple);
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		justify-content: space-evenly;
-		transition: 0.5s;
-		transform: translateX(110%);
-		z-index: 100;
+		display: none;
 	}
 
 	.active {
