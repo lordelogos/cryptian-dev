@@ -56,6 +56,12 @@ body {
 	font-size: 60px;
 }
 
+@media screen and (max-width: 440px) {
+	#preloader > h2 {
+		font-size: 40px;
+	}
+}
+
 body {
 	background-color: #000;
 	color: white;
@@ -189,13 +195,13 @@ header > nav > .nav-menu {
 		height: 40vh;
 		background-color: var(--purple);
 		box-shadow: 0 5px 15px var(--purple);
-		z-index: 20;
 		display: flex;
 		flex-direction: column;
 		align-items: center;
 		justify-content: space-evenly;
 		transition: 0.5s;
 		transform: translateX(110%);
+		z-index: 100;
 	}
 
 	.active {
@@ -375,6 +381,18 @@ header > section {
 .home-img {
 	width: 40%;
 	max-width: max(700px, 40%);
+	animation: bounce infinite 3s;
+}
+
+@keyframes bounce {
+	0%,
+	100% {
+		transform: translateY(0);
+	}
+
+	50% {
+		transform: translateY(-10px);
+	}
 }
 
 .home-details {
@@ -457,6 +475,12 @@ header > section {
 
 	.home-details > div:nth-child(2) {
 		margin: 0 40px;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	header {
+		height: 100vh;
 	}
 }
 

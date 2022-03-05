@@ -26,7 +26,7 @@ main_tl.from('nav', {y: -100, opacity: 0, duration: 1.5, delay: 1})
 .from('.home-img', {opacity: 0, duration: 1.5}, '-=1.5')
 .from('.home-details', {x: 100, opacity: 0, duration: 1.5},"-=1.5")
 
-let price_tl = gsap.timeline({defaults: {duration: 1, ease: "power4.inOut"}, scrollTrigger: {
+let price_tl = gsap.timeline({defaults: {duration: 1.5, ease: "power4.inOut"}, scrollTrigger: {
     trigger: ".pricing",
     toggleActions: "play none none reset"
 }})
